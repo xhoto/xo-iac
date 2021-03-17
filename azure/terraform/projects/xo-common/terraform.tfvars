@@ -1,0 +1,5 @@
+az_subscription_id = "<az_subscription_id>"
+az_tenant_id = "<az_tenant_id>"
+rg_name = "rg-xo-common"
+acr_name = "acrxo"
+acr_sku = "Standard"

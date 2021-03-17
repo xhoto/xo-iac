@@ -1,0 +1,12 @@
+az aks nodepool add \
+--cluster-name <cluster-name> \
+--name <nodepool-name> \
+--resource-group <resource-group> \
+--vnet-subnet-id <vnet-subnet-id> \
+--subscription <subscription> \
+--node-vm-size Standard_DS3_v2 \
+--enable-cluster-autoscaler \
+--kubernetes-version 1.17.9 \
+--max-count 3 \
+--max-pods 20 \
+--min-count 1
